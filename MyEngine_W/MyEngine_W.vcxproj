@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadResources.h" />
+    <ClInclude Include="MEAxeScript.h" />
+    <ClInclude Include="MEBlock.h" />
+    <ClInclude Include="MEBlockScript.h" />
+    <ClInclude Include="MEBridgeBlockScript.h" />
+    <ClInclude Include="MEBullet.h" />
+    <ClInclude Include="MEBulletScript.h" />
+    <ClInclude Include="MECameraScript.h" />
+    <ClInclude Include="MECannon.h" />
+    <ClInclude Include="MECannoScript.h" />
+    <ClInclude Include="MECeilingScript.h" />
+    <ClInclude Include="MEChimney.h" />
+    <ClInclude Include="MEChinmeyScript.h" />
+    <ClInclude Include="MECoinScript.h" />
+    <ClInclude Include="MEEndScene.h" />
+    <ClInclude Include="MEFire.h" />
+    <ClInclude Include="MEFireBarScript.h" />
+    <ClInclude Include="MEFireScript.h" />
+    <ClInclude Include="MEFlag.h" />
+    <ClInclude Include="MEFlagScript.h" />
+    <ClInclude Include="MEFloor.h" />
+    <ClInclude Include="MEFloorScript.h" />
+    <ClInclude Include="MEFlyingTurtleScript.h" />
+    <ClInclude Include="MEGameOverScene.h" />
+    <ClInclude Include="MEHead.h" />
+    <ClInclude Include="MEHeadScript.h" />
+    <ClInclude Include="MEHorizonMovingBlockScript.h" />
+    <ClInclude Include="MEKoopa.h" />
+    <ClInclude Include="MEKoopaScript.h" />
+    <ClInclude Include="MELaser.h" />
+    <ClInclude Include="MELastDoor.h" />
+    <ClInclude Include="MELastDoorScript.h" />
+    <ClInclude Include="MELavaBubble.h" />
+    <ClInclude Include="MELavaBubbleScript.h" />
+    <ClInclude Include="MELoadScene.h" />
+    <ClInclude Include="MEMonsters.h" />
+    <ClInclude Include="MEOnlyDownBlockScript.h" />
+    <ClInclude Include="MEPulleyBlockScript.h" />
+    <ClInclude Include="MEStage3.h" />
+    <ClInclude Include="METrampoline.h" />
+    <ClInclude Include="METrampolineScript.h" />
+    <ClInclude Include="METurtle.h" />
+    <ClInclude Include="METurtleScript.h" />
+    <ClInclude Include="MEVerticalMovingBlockScript.h" />
+    <ClInclude Include="MEPlayer.h" />
+    <ClInclude Include="MEPlayerScript.h" />
+    <ClInclude Include="MEStage1.h" />
+    <ClInclude Include="MEQboxScript.h" />
+    <ClInclude Include="MEScoreScene.h" />
+    <ClInclude Include="MESkeleton.h" />
+    <ClInclude Include="MESkeletonScript.h" />
+    <ClInclude Include="MEMushRoom.h" />
+    <ClInclude Include="MEMushRoomScript.h" />
+    <ClInclude Include="MEStage2.h" />
+    <ClInclude Include="MEStarScript.h" />
+    <ClInclude Include="METile.h" />
+    <ClInclude Include="METoolScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MEAxeScript.cpp" />
+    <ClCompile Include="MEBlock.cpp" />
+    <ClCompile Include="MEBlockScript.cpp" />
+    <ClCompile Include="MEBridgeBlockScript.cpp" />
+    <ClCompile Include="MeBullet.cpp" />
+    <ClCompile Include="MEBulletScript.cpp" />
+    <ClCompile Include="MECameraScript.cpp" />
+    <ClCompile Include="MECannon.cpp" />
+    <ClCompile Include="MECannoScript.cpp" />
+    <ClCompile Include="MECeilingScript.cpp" />
+    <ClCompile Include="MEChimney.cpp" />
+    <ClCompile Include="MEChinmeyScript.cpp" />
+    <ClCompile Include="MECoinScript.cpp" />
+    <ClCompile Include="MEEndScene.cpp" />
+    <ClCompile Include="MEFire.cpp" />
+    <ClCompile Include="MEFireBarScript.cpp" />
+    <ClCompile Include="MEFireScript.cpp" />
+    <ClCompile Include="MEFlag.cpp" />
+    <ClCompile Include="MEFlagScript.cpp" />
+    <ClCompile Include="MEFloor.cpp" />
+    <ClCompile Include="MEFloorScript.cpp" />
+    <ClCompile Include="MEFlyingTurtleScript.cpp" />
+    <ClCompile Include="MEGameOverScene.cpp" />
+    <ClCompile Include="MEHead.cpp" />
+    <ClCompile Include="MEHeadScript.cpp" />
+    <ClCompile Include="MEHorizonMovingBlockScript.cpp" />
+    <ClCompile Include="MEKoopa.cpp" />
+    <ClCompile Include="MEKoopaScript.cpp" />
+    <ClCompile Include="MELaser.cpp" />
+    <ClCompile Include="MELastDoor.cpp" />
+    <ClCompile Include="MELastDoorScript.cpp" />
+    <ClCompile Include="MELavaBubble.cpp" />
+    <ClCompile Include="MELavaBubbleScript.cpp" />
+    <ClCompile Include="MEMonsters.cpp" />
+    <ClCompile Include="MeOnlyDownBlockScript.cpp" />
+    <ClCompile Include="MEPulleyBlockScript.cpp" />
+    <ClCompile Include="MEStage3.cpp" />
+    <ClCompile Include="METrampoline.cpp" />
+    <ClCompile Include="METrampolineScript.cpp" />
+    <ClCompile Include="METurtle.cpp" />
+    <ClCompile Include="METurtleScript.cpp" />
+    <ClCompile Include="MEVerticalMovingBlockScript.cpp" />
+    <ClCompile Include="MEPlayer.cpp" />
+    <ClCompile Include="MEPlayerScript.cpp" />
+    <ClCompile Include="MEStage1.cpp" />
+    <ClCompile Include="MEQboxScript.cpp" />
+    <ClCompile Include="MEScoreScene.cpp" />
+    <ClCompile Include="MESkeleton.cpp" />
+    <ClCompile Include="MESkeletonScript.cpp" />
+    <ClCompile Include="MEStage2.cpp" />
+    <ClCompile Include="MEStarScript.cpp" />
+    <ClCompile Include="METile.cpp" />
+    <ClCompile Include="METitleScene.cpp" />
+    <ClCompile Include="MEMushRoom.cpp" />
+    <ClCompile Include="MEMushRoomScript.cpp" />
+    <ClCompile Include="METoolScene.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ff081cf6-fcc6-4ed0-beba-1d07a93cac68}</ProjectGuid>
+    <RootNamespace>MyEngineW</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\MyEngine_Source\MyEngine_Source.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)\External\Library\Fmod\Debug\fmodL.dll" "$(SolutionDir)\x64\Debug\" 
+copy "$(SolutionDir)\External\Library\Fmod\Debug\fmodstudioL.dll" "$(SolutionDir)\x64\Debug\" </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)\External\Library\FmodLibrary\fmod.dll" "$(SolutionDir)\x64\Release\"
+copy "$(SolutionDir)\External\Library\Fmod\Release\fmodstudio.dll" "$(SolutionDir)\x64\Release\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="MELoadScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MEStage1.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MEEndScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MEScoreScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadResources.h" />
+    <ClInclude Include="MEGameOverScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMushRoomScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MESkeletonScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="METoolScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MECoinScript.h">
+      <Filter>Script\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMushRoom.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MESkeleton.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MEPlayer.h">
+      <Filter>Contents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MECannon.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFloor.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEBullet.h">
+      <Filter>Contents\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="METile.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MECannoScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MEStarScript.h">
+      <Filter>Script\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MEBulletScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MEPlayerScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MECameraScript.h">
+      <Filter>Script\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MEChimney.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFlag.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFloorScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEChinmeyScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFlagScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEQboxScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEBlock.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MELastDoorScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MELastDoor.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEStage2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MEBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MEVerticalMovingBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MEHorizonMovingBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="METrampoline.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="METrampolineScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEPulleyBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MEOnlyDownBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMonsters.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="METurtle.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="METurtleScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFlyingTurtleScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MEHeadScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MEHead.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MEStage3.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MECeilingScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFireBarScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MELaser.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MELavaBubble.h">
+      <Filter>Contents\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MELavaBubbleScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEKoopa.h">
+      <Filter>Contents\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MEKoopaScript.h">
+      <Filter>Script\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFire.h">
+      <Filter>Contents\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFireScript.h">
+      <Filter>Script\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MEAxeScript.h">
+      <Filter>Script\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MEBridgeBlockScript.h">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{945fd437-f4f2-463d-bfe2-86c567d82a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{0539cc36-b4d1-4691-a517-4f5fc77bd770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{2487e8b0-7a9a-4989-b70f-ed09f8743489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monsters">
+      <UniqueIdentifier>{dddbcec6-cd02-46b8-9900-7fe2fd160b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Items">
+      <UniqueIdentifier>{75d15f21-2897-4291-aa27-8a319bd451a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Monster">
+      <UniqueIdentifier>{75c259b9-61fa-4688-ad32-2f18792e7340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Map">
+      <UniqueIdentifier>{2382fb8e-e6cd-4692-a8ce-39c6bdfae09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Others">
+      <UniqueIdentifier>{2a68a8dd-951b-4f9c-8c15-b5a76fc54e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Player">
+      <UniqueIdentifier>{ef20ba6f-1bc8-47c8-b081-7fbe50109aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player">
+      <UniqueIdentifier>{bf944f38-fcab-4e94-997a-02fa09c6d6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Others">
+      <UniqueIdentifier>{9d60996d-cdf5-4934-89a8-dd0212567add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Map">
+      <UniqueIdentifier>{2ba45f02-fe47-49cc-825b-ed0569d951e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Map\Blocks">
+      <UniqueIdentifier>{727ab405-f41a-4905-a72e-db006399375c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MEStage1.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MEEndScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MEScoreScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MEGameOverScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="METitleScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MEMushRoomScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MESkeletonScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="METoolScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MECoinScript.cpp">
+      <Filter>Script\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MEMushRoom.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MESkeleton.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MECannon.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MEPlayer.cpp">
+      <Filter>Contents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFloor.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="METile.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MeBullet.cpp">
+      <Filter>Contents\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MECannoScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MEStarScript.cpp">
+      <Filter>Script\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MEBulletScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MEPlayerScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MECameraScript.cpp">
+      <Filter>Script\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MEChimney.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFlag.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFloorScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEChinmeyScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFlagScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEQboxScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEBlock.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MELastDoorScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MELastDoor.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEStage2.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MEBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="MEVerticalMovingBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="MEHorizonMovingBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="METrampoline.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEPulleyBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="METrampolineScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MeOnlyDownBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="MEMonsters.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="METurtle.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="METurtleScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFlyingTurtleScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MEHeadScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MEHead.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MEStage3.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MECeilingScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFireBarScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MELaser.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MELavaBubble.cpp">
+      <Filter>Contents\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MELavaBubbleScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEKoopa.cpp">
+      <Filter>Contents\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MEKoopaScript.cpp">
+      <Filter>Script\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFire.cpp">
+      <Filter>Contents\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFireScript.cpp">
+      <Filter>Script\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MEAxeScript.cpp">
+      <Filter>Script\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MEBridgeBlockScript.cpp">
+      <Filter>Script\Map\Blocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
