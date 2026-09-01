@@ -100,8 +100,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
    // }
     RemoveFontResourceEx(L"..\\Resources\\jejufont.tff", FR_PRIVATE, 0);
 
-    Gdiplus::GdiplusShutdown(gpToken);
     application.Release();
+    Gdiplus::GdiplusShutdown(gpToken);
 
     return (int) msg.wParam;
 }
@@ -139,12 +139,15 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
       CW_USEDEFAULT, 0, width,height, nullptr, nullptr, hInstance, nullptr);
 
 
-
-   application.Initialize(hWnd, width, height);
-
-   if (!hWnd)
+   if (hWnd == nullptr)
    {
-      return FALSE;
+       return FALSE;
+   }
+
+   if (!application.Initialize(hWnd, width, height))
+   {
+       DestroyWindow(hWnd);
+       return FALSE;
    }
 
 

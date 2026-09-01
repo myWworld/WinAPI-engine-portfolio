@@ -38,7 +38,7 @@ namespace ME
 		
 		std::vector<GameObject*>  gameObjects = mActiveScene->GetLayer(layer)->GetGameObject();
 
-		std::vector<GameObject*>  dontDestroyOnLoad = mActiveScene->GetLayer(layer)->GetGameObject();
+		std::vector<GameObject*> dontDestroyOnLoad = mDontDestroyOnLoad->GetLayer(layer)->GetGameObject();
 
 		gameObjects.insert(gameObjects.end(),dontDestroyOnLoad.begin(), dontDestroyOnLoad.end());
 
